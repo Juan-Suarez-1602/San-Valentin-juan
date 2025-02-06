@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #d50000;
+    text-shadow: 4px 4px 4px #000000;
+    font-size: 4em; 
+}
+
+button {
+    padding: 15px 30px; 
+    font-size: 20px; 
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.yes {
+    background-color: #00c407;
+    color: white;
+}
+
+.no {
+    background-color: #c20d00;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+#respuestaSi, #respuestaNo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+p {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2em;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
